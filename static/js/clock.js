@@ -11,7 +11,7 @@ function clock() {
     if (minutes < 10) minutes = "0" + minutes;
     if (seconds < 10) seconds = "0" + seconds;
     
-    document.querySelector('.clock').innerHTML = hours + ":" + minutes + ":" + seconds;
+    document.querySelector('.clock').innerHTML = "  " + hours + ":" + minutes + ":" + seconds;
     setTimeout("clock()", 1000);
 }
 

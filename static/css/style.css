@@ -20,3 +20,11 @@ a.active {
 .post_date {
     color: grey;
 }
+
+.logout {
+    color: red;
+}
+
+.clock {
+    color: white;
+}
